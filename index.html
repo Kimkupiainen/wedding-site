@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Mustalahdet</title>
+  <meta content="Marikan ja Kimin häät" name="description">
+  <meta content="häät, mustalahdet,Kim, Marika, Kupiainen, Mustalahti, " name="keywords">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,500,600,700|Poppins:300,400,500,600,700" rel="stylesheet">
+
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header id="header" class="fixed-top header-transparent">
+    <div class="container d-flex align-items-center justify-content-between position-relative">
+      <div class="logo">
+        <h1 class="text-light"><a href="index.html">Marika & Kim</a></h1>
+      </div>
+      <div class="language-switcher">
+        <button onclick="setLanguage('fi')">🇫🇮</button>
+        <button onclick="setLanguage('en')">🇬🇧</button>
+      </div>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero" data-i18n="navHome">Etusivu</a></li>
+          <li><a class="nav-link scrollto" href="#about" data-i18n="navAbout">Meistä</a></li>
+          <li><a class="nav-link scrollto" href="#schedule" data-i18n="navSchedule">Seremonia & Juhla</a></li>
+          <li><a class="nav-link scrollto" href="#info" data-i18n="navInfo">Vieraille</a></li>
+          <li><a class="nav-link scrollto" href="#rsvp" data-i18n="navRSVP">Ilmoittautuminen</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="hero-container" data-aos="fade-up">
+      <h1>Marika & Kim</h1>
+      <h2 data-i18n="heroSub">mustalahdet - 6.9.2025</h2>
+      <a href="#about" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
+    </div>
+  </section>
+
+  <main id="main">
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-xl-6 d-flex align-items-stretch" data-aos="fade-right">
+            <div class="content">
+              <h3 data-i18n="aboutTitle">Kaikki alkoi Kajaanissa, KAMKin pelialan pääsykokeissa...</h3>
+              <p data-i18n="aboutText">Kim oli vähällä jäädä rannalle...</p>
+            </div>
+          </div>
+          <div class="col-xl-6 d-flex align-items-stretch" data-aos="fade-left">
+            <div class="content">
+              <img src="assets/img/me.jpg" alt="Meistä" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="schedule" class="cta">
+      <div class="container" data-aos="zoom-in">
+        <div class="text-center">
+          <h3 data-i18n="scheduleTitle">Seremonia & Juhla</h3>
+          <p data-i18n="scheduleText">Kutsu juhlaan koskee kaikkia...</p>
+          <h3 data-i18n="rsvpTitle">Ilmoittautuminen</h3>
+          <p data-i18n="rsvpText">Ilmoitathan meille saapumisestasi...</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="info" class="cta">
+      <div class="container" data-aos="zoom-in">
+        <div class="text-center">
+          <h3 data-i18n="giftTitle">Lahjat</h3>
+          <p data-i18n="giftText">Meillä on jo kaikkea...</p>
+        </div>
+        <div class="text-center mt-5">
+          <h3 data-i18n="accommodationTitle">Majoitus</h3>
+          <p data-i18n="accommodationText">Kajaanin keskustassa on useita majoitusvaihtoehtoja...</p>
+        </div>
+        <div class="text-center mt-5">
+          <h3 data-i18n="transportTitle">Liikkuminen</h3>
+          <p data-i18n="transportText">Juhlatalo sijaitsee keskustan läheisyydessä...</p>
+        </div>
+        <div class="text-center mt-5">
+          <h3 data-i18n="dresscodeTitle">Pukukoodi</h3>
+          <p data-i18n="dresscodeText">Meille on tärkeää, että viihdytte...</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="rsvp" class="cta">
+      <div class="container" data-aos="zoom-in">
+        <div class="text-center">
+          <h3 data-i18n="rsvpSectionTitle">Ilmoittaudu mukaan</h3>
+          <p data-i18n="rsvpSectionText">Ilmoitathan meille saapumisestanne...</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright" data-i18n="footerCopyright">
+        &copy; 2025 Mustalahdet. Kaikki oikeudet pidätetään.
+      </div>
+      <div class="credits" data-i18n="footerCredits">
+        Sivuston rakensi <a href="https://kimkupiainen.com/">Kim Kupiainen</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <script>
+    const translations = {
+      fi: {
+	      navHome: "Etusivu",
+    navAbout: "Meistä",
+    navSchedule: "Seremonia & Juhla",
+    navInfo: "Vieraille",
+    navRSVP: "Ilmoittautuminen",
+    heroSub: "mustalahdet - 6.9.2025",
+    aboutTitle: "Kaikki alkoi Kajaanissa, KAMKin pelialan pääsykokeissa...",
+    aboutText: `Kim oli vähällä jäädä rannalle opintopolku-sekoilun vuoksi, mutta sinnikkyys (ja ehkä vähän kohtalo) toi hänet Kajaaniin. Siellä oli myös Marika.<br><br>
+Aluksi olimme vain kavereita – tutustuimme hitaasti ja varovasti, mutta kuitenkin luontevasti. Ajan myötä tunteet kasvoivat ja tajusimme, ettei tätä voi kutsua pelkäksi ystävyydeksi. Koronavuodet toivat paljon uutta, kuten yhteisen kodin ja uskollisen seuralaisen, Metro-koiran. Yhdessä meistä tuli pieni perhe, joka on jakanut arjen ja seikkailut; opiskeluineen, projekteineen ja uravalintoineen kaikkineen.<br><br>
+Saatat olla törmännyt Kimin peliprojekteihin, Metron Instagramiin tai Marikan portfolioon, mutta tämä sivu kertoo siitä tärkeimmästä projektista: meidän sitoutumisestamme avioliittoon.<br><br>
+Tervetuloa juhlimaan rakkautta, joka alkoi sattumalta, mutta jatkuu valintana – joka päivä. 🧡`,
+
+    scheduleTitle: "Seremonia & Juhla",
+    scheduleText: `Kutsu juhlaan koskee kaikkia kutsuissa nimettyjä henkilöitä. Olette tervetulleita juhlimaan kanssamme Kajaaniin Sara's talolle osoitteeseen: Rajakatu 1, 87100 Kajaani, klo 15 alkaen.<br><br>
+Aloitamme vihkiseremonialla, minkä jälkeen siirrymme ruuan ja muiden juhlallisuuksien pariin. <br>
+<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3470.8108202345607!2d27.74659787756614!3d64.2173465106397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46825a5482087553%3A0x8d096071d3a84216!2sJuhlapalvelu%20SaRa&#39;s%20catering!5e0!3m2!1sen!2sfi!4v1743618548299!5m2!1sen!2sfi\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>` ,
+
+    rsvpTitle: "Ilmoittautuminen",
+    rsvpText: `Ilmoitathan meille saapumisestasi, juomapreferensseistäsi ja mahdollisista ruoka-aineallergioista oheisen lomakkeen kautta.<br><br>
+<strong>Viimeinen ilmoittautumispäivä: 6.7.2025</strong><br><br>
+<a class=\"cta-btn\" href=\"FORMILINKKI\">Ilmoittaudu täällä</a><br><br>
+Voit halutessasi ilmoittaa tiedot myös puhelimitse.`,
+
+    giftTitle: "Lahjat",
+    giftText: `Meillä on jo kaikkea, mitä tarvita saattaa. Mikäli haluatte muistaa meitä tärkeänä päivänämme, voitte sijoittaa tuleviin yhteisiin seikkailuihimme tilille:<br><strong>FI78 3939 0065 4554 87</strong>`,
+
+    accommodationTitle: "Majoitus",
+    accommodationText: `Kajaanin keskustassa on useita majoitusvaihtoehtoja, kuten Hotel Kajanus ja Scandic. Airbnb ja Booking.com tarjoavat myös hyviä vaihtoehtoja.<br>
+<a href=\"https://www.booking.com/city/fi/kajaani.fi.html\" target=\"_blank\">Katso majoitus Booking.comissa</a><br>
+<a href=\"https://www.airbnb.fi/s/Kajaani--Finland\" target=\"_blank\">Katso majoitus Airbnb:ssä</a>`,
+
+    transportTitle: "Liikkuminen",
+    transportText: `Juhlatalo sijaitsee keskustan läheisyydessä, joten paikalle voi saapua helposti kävellen. Talolla on myös parkkitilaa.<br>
+Paikallisliikenne: <a href=\"https://linkki.kainuu.fi\" target=\"_blank\">Kajaanin joukkoliikenne</a><br>
+Taksi: <a href=\"https://kajaani.taksi.fi\" target=\"_blank\">Tilaa taksi</a>` ,
+
+    dresscodeTitle: "Pukukoodi",
+    dresscodeText: `Meille on tärkeää, että viihdytte juhlassa. Näin pyydämmekin että pukeudut sellaisiin vaatteisiin missä sinun on mukava olla`,
+
+    rsvpSectionTitle: "Ilmoittaudu mukaan",
+    rsvpSectionText: `Ilmoitathan meille saapumisestanne ja juomapreferensseistänne sekä mahdollisista ruoka-aineallergioista oheisen formin kautta.<br>Toivomme sitoutuvia ilmoittautumisia viimeistään 06.07.2025. <br><br>` ,
+
+    footerCopyright: "&copy; 2025 Mustalahdet. Kaikki oikeudet pidätetään.",
+    footerCredits: "Sivuston rakensi <a href=\"https://kimkupiainen.com/\">Kim Kupiainen</a>",
+      },
+      en: {
+    navHome: "Home",
+    navAbout: "About Us",
+    navSchedule: "Ceremony & Celebration",
+    navInfo: "For Guests",
+    navRSVP: "RSVP",
+    heroSub: "mustalahdet - September 6, 2025",
+    aboutTitle: "It all started in Kajaani, during the KAMK game design entrance exams...",
+    aboutText: `Kim almost missed the opportunity due to complications with the application process, but perseverance (and perhaps a bit of fate) brought him to Kajaani. Marika was already there.<br><br>
+At first, we were just friends – getting to know each other slowly and cautiously, yet naturally. Over time, our feelings grew and we realized this wasn’t just a friendship. The COVID years brought many new things, like a shared home and our loyal companion Metro the dog. Together, we became a small family, sharing everyday life and adventures, from studies and projects to career paths.<br><br>
+You may have come across Kim’s game projects, Metro’s Instagram, or Marika’s portfolio – but this site is about the most important project: our commitment to marriage.<br><br>
+Welcome to celebrate a love that started by chance, but continues by choice – every day. 🧡`,
+
+    scheduleTitle: "Ceremony & Celebration",
+    scheduleText: `The invitation applies to all individuals named in your invite. You are warmly welcome to celebrate with us at Sara’s house in Kajaani: Rajakatu 1, 87100 Kajaani, starting from 3 PM.<br><br>
+We will begin with the wedding ceremony, followed by food and festivities.<br>
+<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3470.8108202345607!2d27.74659787756614!3d64.2173465106397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46825a5482087553%3A0x8d096071d3a84216!2sJuhlapalvelu%20SaRa&#39;s%20catering!5e0!3m2!1sen!2sfi!4v1743618548299!5m2!1sen!2sfi\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>` ,
+
+    rsvpTitle: "RSVP",
+    rsvpText: `Please let us know your attendance, drink preferences, and any dietary restrictions using the form above.<br><br>
+<strong>Deadline: July 6, 2025</strong><br><br>
+<a class=\"cta-btn\" href=\"FORMILINKKI\">RSVP here</a><br><br>
+You may also provide this info by phone if preferred.`,
+
+    giftTitle: "Gifts",
+    giftText: `We already have everything we need. If you'd like to give a gift, you can contribute to our future adventures by sending a gift to:<br><strong>FI78 3939 0065 4554 87</strong>`,
+
+    accommodationTitle: "Accommodation",
+    accommodationText: `There are several accommodation options in central Kajaani, such as Hotel Kajanus and Scandic. Airbnb and Booking.com also offer good alternatives.<br>
+<a href=\"https://www.booking.com/city/fi/kajaani.en.html\" target=\"_blank\">View on Booking.com</a><br>
+<a href=\"https://www.airbnb.com/s/Kajaani--Finland\" target=\"_blank\">View on Airbnb</a>`,
+
+    transportTitle: "Transport",
+    transportText: `The venue is located near the city center, so it’s easily accessible on foot. There is also parking space available.<br>
+Local transport: <a href=\"https://linkki.kainuu.fi\" target=\"_blank\">Kajaanin public transport</a><br>
+Taxi: <a href=\"https://kajaani.taksi.fi\" target=\"_blank\">Order a taxi</a>` ,
+
+    dresscodeTitle: "Dress Code",
+    dresscodeText: `It’s important to us that you feel comfortable. Please wear what makes you feel good and enjoy the celebration!`,
+
+    rsvpSectionTitle: "RSVP",
+    rsvpSectionText: `Please let us know your attendance, drink preferences, and any food allergies via the form below.<br>We kindly ask for final responses by July 6, 2025.<br><br>` ,
+
+    footerCopyright: "&copy; 2025 Mustalahdet. All rights reserved.",
+    footerCredits: "Website by <a href=\"https://kimkupiainen.com/\">Kim Kupiainen</a>",
+  }
+    };
+
+    function setLanguage(lang) {
+      document.documentElement.lang = lang;
+      const elements = document.querySelectorAll("[data-i18n]");
+      elements.forEach(el => {
+        const key = el.getAttribute("data-i18n");
+        if (translations[lang] && translations[lang][key]) {
+          el.innerHTML = translations[lang][key];
+        }
+      });
+      localStorage.setItem("preferredLang", lang);
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const lang = localStorage.getItem("preferredLang") || "fi";
+      setLanguage(lang);
+    });
+  </script>
+
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

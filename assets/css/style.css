@@ -41,7 +41,32 @@ h6 {
 #main {
   margin-top: 90px;
 }
+.language-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
 
+.lang-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.lang-btn img {
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+}
+
+.lang-btn:hover img {
+  transform: scale(1.1);
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/

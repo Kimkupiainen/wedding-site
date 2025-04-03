@@ -1,0 +1,93 @@
+/* 🌿 Ghibli-henkinen sävymaailma ja typografia override */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Quicksand:wght@400;600&display=swap');
+
+:root {
+  --primary: #A1C181;     /* metsänvihreä */
+  --accent: #D97D54;      /* terrakotta */
+  --hover: #D9BF77;       /* lämmin vaalea okra */
+  --text: #3B3B3B;
+}
+
+/* ✍️ Fontit */
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: var(--text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+}
+
+/* 🔗 Linkit */
+a {
+  color: var(--accent);
+}
+
+a:hover {
+  color: var(--hover);
+}
+#header {
+  background: rgba(161, 193, 129, 0.8); /* pehmeä metsänvihreä */
+}
+#header.header-scrolled {
+  background: rgba(125, 152, 100, 0.9);
+}
+
+/* 🟢 Painikkeet ja korostukset */
+.btn,
+.cta-btn,
+.about .content .about-btn,
+.back-to-top,
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+  color: white !important;
+}
+
+.cta-btn:hover,
+.btn:hover {
+  background-color: var(--hover) !important;
+  border-color: var(--hover) !important;
+}
+
+/* 🌸 Hero-teksti kontrasti */
+#hero h1, #hero h2 {
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+/* 🧷 Kopiointipainike toast-tyylillä */
+#copyButton {
+  background: var(--accent);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+#copyButton:hover {
+  background: var(--hover);
+}
+
+/* 🍞 Toast-viesti */
+#toast {
+  font-family: 'Quicksand', sans-serif;
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--accent);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 9999;
+  pointer-events: none;
+}

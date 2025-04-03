@@ -11,13 +11,17 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: #3B3B3B;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Merriweather", serif;
 }
 
 a {
     text-decoration: none;
-    color: #BFA764;
+    color: #D97D54;
 }
 a:link{
 	color:white;
@@ -25,17 +29,8 @@ a:link{
 }
 
 a:hover {
-  color: #e5d1a6;
+  color: #D9BF77;
   text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Cormorant Garamond", sans-serif;
 }
 
 #main {
@@ -77,7 +72,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 998;
-  background: #BFA764;
+  background: #D97D54;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -91,7 +86,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #e5d1a6;
+  background: #D9BF77;
   color: #fff;
 }
 
@@ -243,7 +238,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #67b0d1;
+  color: #A1C181;
 }
 
 .navbar .dropdown:hover>ul {
@@ -291,7 +286,7 @@ h6 {
 .navbar .megamenu ul li a:hover,
 .navbar .megamenu ul li .active,
 .navbar .megamenu ul li .active:hover {
-  color: #67b0d1;
+  color: #A1C181;
 }
 
 .navbar .megamenu:hover>ul {
@@ -385,7 +380,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #67b0d1;
+  color: #A1C181;
 }
 
 .navbar-mobile .getstarted,
@@ -420,7 +415,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #67b0d1;
+  color: #A1C181;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -436,7 +431,7 @@ h6 {
 .navbar-mobile .megamenu ul li a:hover,
 .navbar-mobile .megamenu ul li .active,
 .navbar-mobile .megamenu ul li .active:hover {
-  color: #67b0d1;
+  color: #A1C181;
 }
 
 /*--------------------------------------------------------------
@@ -659,7 +654,7 @@ section {
 
 .about .content .about-btn {
   display: inline-block;
-  background: #67b0d1;
+  background: #A1C181;
   padding: 6px 44px 8px 30px;
   color: #fff;
   border-radius: 50px;
@@ -684,7 +679,7 @@ section {
 
 .about .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #67b0d1;
+  color: #A1C181;
   margin-bottom: 10px;
 }
 
@@ -738,7 +733,7 @@ section {
 }
 
 .services .icon-box:hover::before {
-  background: #67b0d1;
+  background: #A1C181;
   top: 0;
   border-radius: 0px;
 }
@@ -750,7 +745,7 @@ section {
 .services .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #67b0d1;
+  color: #A1C181;
   transition: all 0.3s ease-in-out;
 }
 
@@ -794,7 +789,7 @@ section {
 .counts .count-box i {
   display: block;
   font-size: 44px;
-  color: #67b0d1;
+  color: #A1C181;
   float: left;
   line-height: 0;
 }
@@ -900,7 +895,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #67b0d1;
+  color: #A1C181;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -990,11 +985,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #67b0d1;
+  border: 1px solid #A1C181;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #67b0d1;
+  background-color: #A1C181;
 }
 
 .portfolio-details .portfolio-info {
@@ -1053,7 +1048,7 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #67b0d1;
+  color: #A1C181;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #f0f7fa;
@@ -1093,7 +1088,7 @@ section {
   margin-bottom: 15px;
   background: white;
   color: #2f4d5a;
-  border-top: 4px solid #67b0d1;
+  border-top: 4px solid #A1C181;
   text-align: center;
   padding: 30px 20px;
 }
@@ -1129,7 +1124,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #67b0d1;
+  background: #A1C181;
   color: #fff;
   text-decoration: none;
 }
@@ -1203,7 +1198,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #67b0d1;
+  background: #A1C181;
   color: #fff;
   transition: 0.3s;
   border-radius: 4;

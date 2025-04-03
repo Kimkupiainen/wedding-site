@@ -2,6 +2,7 @@
 <html lang="fi">
 
 <head>
+
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -12,7 +13,7 @@
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,500,600,700|Poppins:300,400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
 
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,7 +23,24 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <link href="assets/css/style.css" rel="stylesheet">
+  
 </head>
+
+<div id="toast" style="
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 9999;
+  pointer-events: none;
+">
+</div>
 
 <body>
   <header id="header" class="fixed-top header-transparent">
@@ -235,12 +253,24 @@ Taxi: <a href=\"https://www.taksikajaani.fi\" target=\"_blank\">Order a taxi</a>
     });
 	
   </script>
+  <script>
+  function showToast(message) {
+  const toast = document.getElementById("toast");
+  toast.textContent = message;
+  toast.style.opacity = "1"; // näkyväksi
+
+  // Piilotetaan 3 sekunnin päästä
+  setTimeout(() => {
+    toast.style.opacity = "0";
+  }, 3000);
+}
+</script>
 <script>
   function copyIBAN() {
     const lang = document.documentElement.lang || "fi";
     const iban = document.getElementById("iban").innerText;
     navigator.clipboard.writeText(iban).then(() => {
-      alert(translations[lang].copiedAlert);
+      showToast(translations[lang].copiedAlert);
     });
   }
 </script>
